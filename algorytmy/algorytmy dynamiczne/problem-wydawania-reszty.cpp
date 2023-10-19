@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 #define N 100000
 #define INF 1000000000
 using namespace std;
@@ -7,10 +7,10 @@ int main()
 {
 	int n, a, tab[N], dp[N];
 	
-	cin>>n>>a; //n: iloœæ nomina³ów, a: wartoœæ, któr¹ chcemy wydaæ
+	cin>>n>>a; //n: iloï¿½ï¿½ nominaï¿½ï¿½w, a: wartoï¿½ï¿½, ktï¿½rï¿½ chcemy wydaï¿½
 	
 	for(int i=0; i<n; i++)
-	cin>>tab[i]; //tab[i]: i-ty nomina³
+	cin>>tab[i]; //tab[i]: i-ty nominaï¿½
 	
 	dp[0]=0;
 	
