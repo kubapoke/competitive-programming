@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 #define N 100000
 #define INF 1000000000
 using namespace std;
@@ -6,7 +7,7 @@ using namespace std;
 vector<int> graf[1000];
 int visited[1000];
 
-DFS(int v)
+void DFS(int v)
 {
 	cout<<v<<" ";
 	visited[v]=1;

@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 #define N 100000
 #define INF 1000000000
 using namespace std;
@@ -29,7 +29,7 @@ long long gethash(int pos, int len)
 int main()
 {
 	ios_base::sync_with_stdio(0);
-	cin>>s; //s: s³owo, dla którego chcemy stworzyæ hashe
+	cin>>s; //s: sï¿½owo, dla ktï¿½rego chcemy stworzyï¿½ hashe
 	n=s.size();
 	init();
 	

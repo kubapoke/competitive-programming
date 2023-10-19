@@ -1,4 +1,6 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<queue>
 #define N 100000
 #define INF 1000000000
 using namespace std;
