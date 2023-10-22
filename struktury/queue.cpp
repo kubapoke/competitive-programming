@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<queue>
 using namespace std;
 
 queue<int> Q; //queue<typ zmiennej> nazwa: deklaracja kolejki
@@ -9,15 +10,15 @@ int main()
 	
 	for(int i=0; i<10; i++)	
 	{
-		Q.push(x); //nazwa.push(x): dodaje element o wartoœci x na koniec kolejki
+		Q.push(x); //nazwa.push(x): dodaje element o wartoï¿½ci x na koniec kolejki
 		x*=2;
 	}
 	
 	cout<<"Zawartosc kolejki: ";
-	while(!Q.empty()) //dopóki kolejka nie jest pusta
+	while(!Q.empty()) //dopï¿½ki kolejka nie jest pusta
 	{
-		cout<<Q.front()<<" "; //nazwa.front(): zwraca element na pocz¹tku kolejki
-		Q.pop(); //nazwa.pop(): usuwa element na pocz¹tku kolejki
+		cout<<Q.front()<<" "; //nazwa.front(): zwraca element na poczï¿½tku kolejki
+		Q.pop(); //nazwa.pop(): usuwa element na poczï¿½tku kolejki
 	}
 	cout<<"\n\n";
 

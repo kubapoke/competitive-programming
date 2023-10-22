@@ -1,7 +1,8 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<map>
 using namespace std;
 
-map<char,int> M; //map<typ zmiennej klucza, typ zmiennej wartoœci> nazwa: deklaracja mapy o kluczach i wartoœciach o okreœlonych typach
+map<char,int> M; //map<typ zmiennej klucza, typ zmiennej wartoï¿½ci> nazwa: deklaracja mapy o kluczach i wartoï¿½ciach o okreï¿½lonych typach
 
 int main()
 {

@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 vector<int> V; //vector<typ zmiennej> nazwa: deklaracja vectora
@@ -9,7 +10,7 @@ int main()
 	
 	for(int i=0; i<10; i++)
 	{
-		V.push_back(x); //nazwa.push_back(wartoœæ): rozszerza vector o 1 i dodaje na jego koniec podany element
+		V.push_back(x); //nazwa.push_back(wartoï¿½ï¿½): rozszerza vector o 1 i dodaje na jego koniec podany element
 		x*=2;
 	}
 	

@@ -1,8 +1,11 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<queue>
+#include<cstdlib>
+#include<ctime>
 using namespace std;
 
-priority_queue<int> PQ1; //priority_queue<typ zmiennej> nazwa: deklaracja kolejki prioretytowej (domyœlnie zwraca najpierw najwiêkszy element)
-priority_queue<int, vector<int>, greater<int>> PQ2; //kolejka prioretytowa zwracaj¹ca najpierw najmniejsze elementy, mo¿na do niej wstawiæ te¿ w³asne komparatory, co wkrótce omówimy
+priority_queue<int> PQ1; //priority_queue<typ zmiennej> nazwa: deklaracja kolejki prioretytowej (domyï¿½lnie zwraca najpierw najwiï¿½kszy element)
+priority_queue<int, vector<int>, greater<int>> PQ2; //kolejka prioretytowa zwracajï¿½ca najpierw najmniejsze elementy, moï¿½na do niej wstawiï¿½ teï¿½ wï¿½asne komparatory, co wkrï¿½tce omï¿½wimy
 
 int main()
 {
@@ -11,18 +14,18 @@ int main()
 	cout<<"Nieposorotwane elementy zbioru: ";
 	for(int i=0; i<10; i++)
 	{
-		int x=rand()%100+1; //losowa liczba z przedzia³u [1,100]
+		int x=rand()%100+1; //losowa liczba z przedziaï¿½u [1,100]
 		cout<<x<<" ";
 		
-		PQ1.push(x); //nazwa.push(x): dodaje element o wartoœci x na odpowiednie miejsce kolejki
+		PQ1.push(x); //nazwa.push(x): dodaje element o wartoï¿½ci x na odpowiednie miejsce kolejki
 		PQ2.push(x);
 	}
 	cout<<"\n\n";
 	
 	cout<<"PQ1: ";
-	while(!PQ1.empty()) //dopóki kolejka nie jest pusta
+	while(!PQ1.empty()) //dopï¿½ki kolejka nie jest pusta
 	{
-		cout<<PQ1.top()<<" "; //zwraca element kolejki o najwy¿szym priorytecie
+		cout<<PQ1.top()<<" "; //zwraca element kolejki o najwyï¿½szym priorytecie
 		PQ1.pop();
 	}
 	cout<<"\n\n";

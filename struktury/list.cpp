@@ -1,8 +1,9 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<list>
 using namespace std;
 
 list<int> L; //list<typ zmiennej> nazwa: deklaracja listy
-list<int>::iterator it; //list<typ zmiennej>::iterator nazwa iteratora: deklaracja iteratora po liœcie
+list<int>::iterator it; //list<typ zmiennej>::iterator nazwa iteratora: deklaracja iteratora po liï¿½cie
 
 int main()
 {
@@ -10,25 +11,25 @@ int main()
 	
 	for(int i=0; i<5; i++)
 	{
-		L.push_front(x); //nazwa.push_front(wartoœæ): rozszerza listê o 1 i dodaje na jej pocz¹tek podany element
+		L.push_front(x); //nazwa.push_front(wartoï¿½ï¿½): rozszerza listï¿½ o 1 i dodaje na jej poczï¿½tek podany element
 		x*=2;
-		L.push_back(x); //nazwa.push_back(wartoœæ): rozszerza listê o 1 i dodaje na jej koniec podany element
+		L.push_back(x); //nazwa.push_back(wartoï¿½ï¿½): rozszerza listï¿½ o 1 i dodaje na jej koniec podany element
 		x*=2;
 	}
 	
 	cout<<"Zawartosc listy (1): ";
-	for(it=L.begin(); it!=L.end(); it++) //przejœcie wczeœniej zadeklarowanym iteratorem po liœcie
+	for(it=L.begin(); it!=L.end(); it++) //przejï¿½cie wczeï¿½niej zadeklarowanym iteratorem po liï¿½cie
 	{
-		cout<<*it<<" "; //wypisujemy *it, nie it, gdy¿ 'cout<<it' zwraca³oby adres w pamiêci iteratora a nie jego wartoœæ
+		cout<<*it<<" "; //wypisujemy *it, nie it, gdyï¿½ 'cout<<it' zwracaï¿½oby adres w pamiï¿½ci iteratora a nie jego wartoï¿½ï¿½
 	}
 	cout<<"\n\n";
 	
 	it=L.begin();
-	advance(it, 5); //advance(nazwa iteratora, iloœæ elementów): przesuwa iterator o 5 elementów do przodu
+	advance(it, 5); //advance(nazwa iteratora, iloï¿½ï¿½ elementï¿½w): przesuwa iterator o 5 elementï¿½w do przodu
 	
 	for(int i=0; i<5; i++)
 	{
-		L.insert(it,x); //nazwa.insert(nazwa iteratora, wartoœæ): rozszerza listê o 1 i dodaje na pozycjê przed iteratorem podany element
+		L.insert(it,x); //nazwa.insert(nazwa iteratora, wartoï¿½ï¿½): rozszerza listï¿½ o 1 i dodaje na pozycjï¿½ przed iteratorem podany element
 		x*=2;
 	}
 	
