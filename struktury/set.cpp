@@ -5,9 +5,9 @@
 #include<unordered_set>
 using namespace std;
 
-set<int> S; //set<typ zmiennej> nazwa: deklaracja seta // dane w secie automatycznie sortowane s� rosn�co i usuwane s� wszelkie powt�rzenia
-multiset<int> MS; //dane w multisecie sortowane s� niemalej�co
-unordered_set<int> US; //dane w unordered secie sortowane s� w (pozornie) arbitralny spos�b, jednak usuwane s� powt�rzenia
+set<int> S; //set<typ zmiennej> nazwa: deklaracja seta // dane w secie automatycznie sortowane są rosnąco i usuwane są wszelkie powtórzenia
+multiset<int> MS; //dane w multisecie sortowane są niemalejąco
+unordered_set<int> US; //dane w unordered secie sortowane są w (pozornie) arbitralny sposób, jednak usuwane są powtórzenia
 
 set<int>::iterator s; //set<typ zmiennej>::iterator nazwa iteratora: deklaracja iteratora po secie
 multiset<int>::iterator ms;
@@ -20,12 +20,12 @@ int main()
 	cout<<"Nieposorotwane elementy zbioru: ";
 	for(int i=0; i<10; i++)
 	{
-		int x=rand()%100+1; //losowa liczba z przedzia�u [1,100]
+		int x=rand()%100+1; //losowa liczba z przedziału [1,100]
 		cout<<x<<" "<<x<<" ";
 		
 		for(int j=0; j<2; j++)
 		{
-			S.insert(x); //nazwa.insert(x): dodaje element o warto�ci x na odpowiedni� pozycj� w secie
+			S.insert(x); //nazwa.insert(x): dodaje element o wartości x na odpowiednią pozycję w secie
 			MS.insert(x);
 			US.insert(x);
 		}
@@ -33,9 +33,9 @@ int main()
 	cout<<"\n\n";
 	
 	cout<<"S: ";
-	for(s=S.begin(); s!=S.end(); s++) //przej�cie wcze�niej zadeklarowanym iteratorem po secie
+	for(s=S.begin(); s!=S.end(); s++) //przejście wcześniej zadeklarowanym iteratorem po secie
 	{
-		cout<<*s<<" "; //wypisujemy *s, nie s, gdy� 'cout<<s' zwraca�oby adres w pami�ci iteratora a nie jego warto��
+		cout<<*s<<" "; //wypisujemy *s, nie s, gdyż 'cout<<s' zwracałoby adres w pamięci iteratora a nie jego wartość
 	}
 	cout<<"\n\n";
 	

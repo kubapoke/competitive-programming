@@ -10,15 +10,15 @@ int main()
 	
 	for(int i=0; i<10; i++)	
 	{
-		Q.push(x); //nazwa.push(x): dodaje element o warto�ci x na koniec kolejki
+		Q.push(x); //nazwa.push(x): dodaje element o wartości x na koniec kolejki
 		x*=2;
 	}
 	
 	cout<<"Zawartosc kolejki: ";
-	while(!Q.empty()) //dop�ki kolejka nie jest pusta
+	while(!Q.empty()) //dopóki kolejka nie jest pusta
 	{
-		cout<<Q.front()<<" "; //nazwa.front(): zwraca element na pocz�tku kolejki
-		Q.pop(); //nazwa.pop(): usuwa element na pocz�tku kolejki
+		cout<<Q.front()<<" "; //nazwa.front(): zwraca element na początku kolejki
+		Q.pop(); //nazwa.pop(): usuwa element na początku kolejki
 	}
 	cout<<"\n\n";
 

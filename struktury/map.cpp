@@ -2,7 +2,7 @@
 #include<map>
 using namespace std;
 
-map<char,int> M; //map<typ zmiennej klucza, typ zmiennej warto�ci> nazwa: deklaracja mapy o kluczach i warto�ciach o okre�lonych typach
+map<char,int> M; //map<typ zmiennej klucza, typ zmiennej wartości> nazwa: deklaracja mapy o kluczach i wartościach o określonych typach
 
 int main()
 {

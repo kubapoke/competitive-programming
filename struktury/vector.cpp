@@ -10,7 +10,7 @@ int main()
 	
 	for(int i=0; i<10; i++)
 	{
-		V.push_back(x); //nazwa.push_back(warto��): rozszerza vector o 1 i dodaje na jego koniec podany element
+		V.push_back(x); //nazwa.push_back(wartość): rozszerza vector o 1 i dodaje na jego koniec podany element
 		x*=2;
 	}
 	

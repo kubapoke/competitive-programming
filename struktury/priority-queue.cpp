@@ -4,8 +4,8 @@
 #include<ctime>
 using namespace std;
 
-priority_queue<int> PQ1; //priority_queue<typ zmiennej> nazwa: deklaracja kolejki prioretytowej (domy�lnie zwraca najpierw najwi�kszy element)
-priority_queue<int, vector<int>, greater<int>> PQ2; //kolejka prioretytowa zwracaj�ca najpierw najmniejsze elementy, mo�na do niej wstawi� te� w�asne komparatory, co wkr�tce om�wimy
+priority_queue<int> PQ1; //priority_queue<typ zmiennej> nazwa: deklaracja kolejki prioretytowej (domyślnie zwraca najpierw największy element)
+priority_queue<int, vector<int>, greater<int>> PQ2; //kolejka prioretytowa zwracająca najpierw najmniejsze elementy, można do niej wstawić też własne komparatory, co wkrótce omówimy
 
 int main()
 {
@@ -14,18 +14,18 @@ int main()
 	cout<<"Nieposorotwane elementy zbioru: ";
 	for(int i=0; i<10; i++)
 	{
-		int x=rand()%100+1; //losowa liczba z przedzia�u [1,100]
+		int x=rand()%100+1; //losowa liczba z przedziału [1,100]
 		cout<<x<<" ";
 		
-		PQ1.push(x); //nazwa.push(x): dodaje element o warto�ci x na odpowiednie miejsce kolejki
+		PQ1.push(x); //nazwa.push(x): dodaje element o wartości x na odpowiednie miejsce kolejki
 		PQ2.push(x);
 	}
 	cout<<"\n\n";
 	
 	cout<<"PQ1: ";
-	while(!PQ1.empty()) //dop�ki kolejka nie jest pusta
+	while(!PQ1.empty()) //dopóki kolejka nie jest pusta
 	{
-		cout<<PQ1.top()<<" "; //zwraca element kolejki o najwy�szym priorytecie
+		cout<<PQ1.top()<<" "; //zwraca element kolejki o najwyższym priorytecie
 		PQ1.pop();
 	}
 	cout<<"\n\n";

@@ -10,15 +10,15 @@ int main()
 	
 	for(int i=0; i<10; i++)	
 	{
-		S.push(x); //nazwa.push(x): dodaje element o warto�ci x na g�r� stosu
+		S.push(x); //nazwa.push(x): dodaje element o wartości x na górę stosu
 		x*=2;
 	}
 	
 	cout<<"Zawartosc stosu: ";
 	while(!S.empty()) //dop�ki stos nie jest pusty
 	{
-		cout<<S.top()<<" "; //nazwa.front(): zwraca element na g�rze stosu
-		S.pop(); //nazwa.pop(): usuwa element na g�rze stosu
+		cout<<S.top()<<" "; //nazwa.front(): zwraca element na górze stosu
+		S.pop(); //nazwa.pop(): usuwa element na górze stosu
 	}
 	cout<<"\n\n";
 

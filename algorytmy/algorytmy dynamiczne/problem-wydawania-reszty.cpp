@@ -7,7 +7,7 @@ int main()
 {
 	int n, a, tab[N], dp[N];
 	
-	cin>>n>>a; //n: ilość nominałów, a: wartość, którż chcemy wydać
+	cin>>n>>a; //n: ilość nominałów, a: wartość, którą chcemy wydać
 	
 	for(int i=0; i<n; i++)
 	cin>>tab[i]; //tab[i]: i-ty nominał

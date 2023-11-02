@@ -3,7 +3,7 @@
 using namespace std;
 
 list<int> L; //list<typ zmiennej> nazwa: deklaracja listy
-list<int>::iterator it; //list<typ zmiennej>::iterator nazwa iteratora: deklaracja iteratora po li�cie
+list<int>::iterator it; //list<typ zmiennej>::iterator nazwa iteratora: deklaracja iteratora po liście
 
 int main()
 {
@@ -11,25 +11,25 @@ int main()
 	
 	for(int i=0; i<5; i++)
 	{
-		L.push_front(x); //nazwa.push_front(warto��): rozszerza list� o 1 i dodaje na jej pocz�tek podany element
+		L.push_front(x); //nazwa.push_front(wartość): rozszerza listę o 1 i dodaje na jej początek podany element
 		x*=2;
-		L.push_back(x); //nazwa.push_back(warto��): rozszerza list� o 1 i dodaje na jej koniec podany element
+		L.push_back(x); //nazwa.push_back(wartość): rozszerza listę o 1 i dodaje na jej koniec podany element
 		x*=2;
 	}
 	
 	cout<<"Zawartosc listy (1): ";
-	for(it=L.begin(); it!=L.end(); it++) //przej�cie wcze�niej zadeklarowanym iteratorem po li�cie
+	for(it=L.begin(); it!=L.end(); it++) //przejście wcześniej zadeklarowanym iteratorem po liście
 	{
-		cout<<*it<<" "; //wypisujemy *it, nie it, gdy� 'cout<<it' zwraca�oby adres w pami�ci iteratora a nie jego warto��
+		cout<<*it<<" "; //wypisujemy *it, nie it, gdyż 'cout<<it' zwracałoby adres w pamięci iteratora a nie jego wartość
 	}
 	cout<<"\n\n";
 	
 	it=L.begin();
-	advance(it, 5); //advance(nazwa iteratora, ilo�� element�w): przesuwa iterator o 5 element�w do przodu
+	advance(it, 5); //advance(nazwa iteratora, ilość elementów): przesuwa iterator o 5 elementów do przodu
 	
 	for(int i=0; i<5; i++)
 	{
-		L.insert(it,x); //nazwa.insert(nazwa iteratora, warto��): rozszerza list� o 1 i dodaje na pozycj� przed iteratorem podany element
+		L.insert(it,x); //nazwa.insert(nazwa iteratora, wartość): rozszerza listę o 1 i dodaje na pozycję przed iteratorem podany element
 		x*=2;
 	}
 	
