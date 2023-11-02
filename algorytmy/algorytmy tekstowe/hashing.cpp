@@ -29,7 +29,7 @@ long long gethash(int pos, int len)
 int main()
 {
 	ios_base::sync_with_stdio(0);
-	cin>>s; //s: s�owo, dla kt�rego chcemy stworzy� hashe
+	cin>>s; //s: słowo, dla którego chcemy stworzyć hashe
 	n=s.size();
 	init();
 	

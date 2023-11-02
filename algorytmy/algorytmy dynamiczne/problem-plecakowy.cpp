@@ -7,10 +7,10 @@ int main()
 {
 	int n, g, tab[N], dp[N];
 	
-	cin>>g>>n; //g: g��boko�� plecaka, n: ilo�� umieszczanych w plecaku przedmiot�w
+	cin>>g>>n; //g: głębokość plecaka, n: ilość umieszczanych w plecaku przedmiotów
 
 	for(int i=0; i<n; i++)
-	cin>>tab[i]; //tab[i]: wielko�� kolejnych element�w wk�adanych do plecaka
+	cin>>tab[i]; //tab[i]: wielkość kolejnych elementów wkładanych do plecaka
 	
 	dp[0]=1;
 	

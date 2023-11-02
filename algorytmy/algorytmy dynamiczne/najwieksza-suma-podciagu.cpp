@@ -7,10 +7,10 @@ int main()
 {
 	int n, tab[N], dp[N], suma;
 	
-	cin>>n; //n: d�ugo�� ci�gu
+	cin>>n; //n: długość ciągu
 	
 	for(int i=0; i<n; i++)
-	cin>>tab[i]; //tab[i]: kolejne elementy ci�gu
+	cin>>tab[i]; //tab[i]: kolejne elementy ciągu
 	
 	dp[0]=tab[0];
 	suma=dp[0];

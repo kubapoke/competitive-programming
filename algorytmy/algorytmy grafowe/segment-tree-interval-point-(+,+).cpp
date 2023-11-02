@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-#define NTREE 1048576 //pierwsza pot�ga dw�jki wi�ksza ni� ilo�� element�w
+#define NTREE 1048576 //pierwsza potęga dwójki większa niż ilość elementów
 int tree[NTREE*2];
 
 void update(int val, int l, int r)

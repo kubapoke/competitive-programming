@@ -22,7 +22,7 @@ int main()
 {
 	ios_base::sync_with_stdio(0);
 	string s;
-	cin>>s; //s: s�owo, dla kt�rego chcemy stworzy� tablic� pi
+	cin>>s; //s: słowo, dla którego chcemy stworzyć tablicę pi
 	vector<int> pi=kmp(s);
 	
 	return 0;

@@ -7,10 +7,10 @@ int main()
 {
 	int n, a, tab[N], dp[N];
 	
-	cin>>n>>a; //n: ilo�� nomina��w, a: warto��, kt�r� chcemy wyda�
+	cin>>n>>a; //n: ilość nominałów, a: wartość, którż chcemy wydać
 	
 	for(int i=0; i<n; i++)
-	cin>>tab[i]; //tab[i]: i-ty nomina�
+	cin>>tab[i]; //tab[i]: i-ty nominał
 	
 	dp[0]=0;
 	
