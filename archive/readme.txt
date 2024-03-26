@@ -1,4 +1,4 @@
-Archive of competitive programming codes from my high-school years. 
+Archive of competitive programming codes from my middle school years. 
 
 -THIS ARCHIVE IS CURRENTLY VERY INCOMPLETE, THERE'S NO CODE FROM OTHER CONTESTS, MOREOVER THE SZKOPUŁ ARCHIVE IS INCOMPLETE-
 
