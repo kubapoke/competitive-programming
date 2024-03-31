@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1...3.29)
+
+add_executable(BFS BFS.cpp)
+add_executable(DFS DFS.cpp)
+add_executable(dijkstra dijkstra.cpp)
+add_executable(SCC SCC.cpp)
+add_executable(segment-tree-interval-point-sum segment-tree-interval-point-sum.cpp)
+add_executable(segment-tree-interval-point-max segment-tree-interval-point-max.cpp)
+add_executable(segment-tree-point-interval-sum segment-tree-point-interval-sum.cpp)
+add_executable(segment-tree-point-interval-max segment-tree-point-interval-max.cpp)

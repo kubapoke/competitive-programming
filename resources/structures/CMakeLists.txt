@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1...3.29)
+
+add_executable(deque deque.cpp)
+add_executable(list list.cpp)
+add_executable(map map.cpp)
+add_executable(priority-queue priority-queue.cpp)
+add_executable(queue queue.cpp)
+add_executable(set set.cpp)
+add_executable(stack stack.cpp)
+add_executable(vector vector.cpp)

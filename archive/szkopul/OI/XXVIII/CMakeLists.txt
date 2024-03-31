@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.1...3.29)
+
+add_executable(Cukiernia Cukiernia.cpp)
+add_executable(Gra-platformowa Gra-platformowa.cpp)
+add_executable(Licznik-dlugu Licznik-dlugu.cpp)
+add_executable(Pakowanie-plecaka Pakowanie-plecaka.cpp)
+add_executable(Plazowicze Plazowicze.cpp)
+add_executable(Projekt-planszy Projekt-planszy.cpp)
+add_executable(Szablon-Bajtogrodu Szablon-Bajtogrodu.cpp)
+add_executable(Tablica-binarna Tablica-binarna.cpp)
+add_executable(Zdjecia-krasnali Zdjecia-krasnali.cpp)

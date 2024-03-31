@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.1...3.29)
+
+add_executable(Bierki Bierki.cpp)
+add_executable(Marchewki Marchewki.cpp)
+add_executable(Prostokaty Prostokaty.cpp)
+add_executable(Tetris-2D Tetris-2D.cpp)
+add_executable(Trening-centaura Trening-centaura.cpp)
+add_executable(Wieza Wieza.cpp)
+add_executable(Zakup-dzialki Zakup-dzialki.cpp)
+add_executable(Zawody-wedkarskie Zawody-wedkarskie.cpp)
+add_executable(Znaczki Znaczki.cpp)
