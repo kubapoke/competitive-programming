@@ -1,4 +1,5 @@
-# Introduction
+# Competitive programming
+## Introduction
 This repository currently serves primarily an archival 
 function of storing my programs related to competitive
 programming. When I finally have the time to return to 
